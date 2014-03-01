@@ -1,0 +1,19 @@
+<html>
+<head>
+    <script language="javascript">
+        try {
+            setTimeout(function() {
+                alert("App not installed");
+                // window.location = "handleme://";
+            }, 25);
+            window.location = "handleme://";
+        }
+        catch (e) {
+            alert("Error: " + e);
+        }
+    </script>
+</head>
+<body>
+    <h1>App Detection</h1>
+</body>
+</html>
