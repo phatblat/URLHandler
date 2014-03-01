@@ -379,6 +379,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "URLHandling/URLHandling-Prefix.pch";
 				INFOPLIST_FILE = "URLHandling/URLHandling-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "URLHandling/URLHandling-Prefix.pch";
 				INFOPLIST_FILE = "URLHandling/URLHandling-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +458,7 @@
 				F898F2BF18C1614C00EF2566 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F898F2C018C1614C00EF2566 /* Build configuration list for PBXNativeTarget "URLHandlingTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +467,7 @@
 				F898F2C218C1614C00EF2566 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
