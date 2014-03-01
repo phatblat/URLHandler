@@ -7,12 +7,16 @@
     <meta http-equiv='pragma' content='no-cache'>
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <script language="javascript">
-        try {
-            var appLaunchURL = 'handleme://';
-            // var appDownloadURL = 'https://itunes.apple.com/us/app/kaiser-permanente/id493390354?mt=8';
-            // var appDownloadURL = 'http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=493390354';
-            var appDownloadURL = 'itms-apps://itunes.apple.com/app/id493390354';
 
+        // Override window.alert
+        window.alert = function() {};
+
+        var appLaunchURL = 'handleme://';
+        // var appDownloadURL = 'https://itunes.apple.com/us/app/kaiser-permanente/id493390354?mt=8';
+        // var appDownloadURL = 'http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=493390354';
+        var appDownloadURL = 'itms-apps://itunes.apple.com/app/id493390354';
+
+        try {
             //
             // Window.open
             //
@@ -32,7 +36,6 @@
             // request.send();
 
             window.location = appLaunchURL;
-            // launchapp();
         }
         catch (e) {
             alert("Error: " + e);
